@@ -3,6 +3,7 @@ import './App.css';
 import AddClubForm from './components/AddClubForm';
 import Player from './models/Player';
 import DisplayClub from './components/DisplayClub';
+import help from '../src/img/help.png'
 
 
 
@@ -30,7 +31,7 @@ const App: FC = () => {
     <div className="App">
       <div className="help">
         <div className="help-header">
-          <img src={`/images/help.png`}/>
+          <img src={help}/>
           <div className="help-h">Help</div>
         </div>
         <div className="help-text">

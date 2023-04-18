@@ -2,6 +2,8 @@ import React, { FC, useState} from 'react';
 import { AiFillEdit, AiFillDelete } from "react-icons/ai" 
 import Player from '../models/Player';
 import EditPlayerForm from './EditPlayerForm';
+import photo from "../img/attack.png";
+
 
 
 interface SinglePlayerProps {
@@ -24,9 +26,10 @@ const SinglePlayer: FC<SinglePlayerProps> = ({ player, updatePlayer, deletePlaye
 
     return (
         <div className="player">
-            <img src={`/images/${player.img}`} alt={player.title} />
+            <img src={photo} />
+            <img src={`../img/${player.img}`} alt={player.title} />
             <h2>{player.title}</h2>
-            <span>{player.price} $</span>
+            <span>{player.price} </span>
 
             <div className="player-controls">
                 <AiFillEdit onClick={handleToggleEdit}/>
