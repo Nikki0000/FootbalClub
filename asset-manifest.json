@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FootbalClub/static/css/main.16cf2ef5.css",
+    "main.js": "/FootbalClub/static/js/main.c908cce9.js",
+    "static/js/787.b70d9738.chunk.js": "/FootbalClub/static/js/787.b70d9738.chunk.js",
+    "index.html": "/FootbalClub/index.html",
+    "main.16cf2ef5.css.map": "/FootbalClub/static/css/main.16cf2ef5.css.map",
+    "main.c908cce9.js.map": "/FootbalClub/static/js/main.c908cce9.js.map",
+    "787.b70d9738.chunk.js.map": "/FootbalClub/static/js/787.b70d9738.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16cf2ef5.css",
+    "static/js/main.c908cce9.js"
+  ]
+}
