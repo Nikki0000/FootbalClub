@@ -1,38 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  width: 100vw;
   min-height: 100vh;
+  font-family: "Montserrat";
+  display: flex;
+}
+
+.help {
+  display: block;
+  width: 450px;
+  padding: 50px;
+}
+
+.help-text {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.help img {
+  height: 30px;
+  width: 30px;
+}
+
+.help-header {
+  display: flex;
+  font-size: 26px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.help-text div {
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.help-footer {
+  padding-top: 20px;
+}
+
+.help-footer1 {
+  padding-top: 100px;
+}
+
+.help-footer2 {
+  padding-top: 20px;
+}
+
+
+
+.wrap {
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 52px 0 32px;
+  z-index: 1;
+  text-align: center;
+  padding-bottom: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.form-text {
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+
+
+.playercard {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 100px;
+
+}
+
+.playercard-h {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .heading {
+    margin: 15px 0;
+    font-size: 35px;
   }
 }
