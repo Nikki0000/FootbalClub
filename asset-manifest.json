@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/FootbalClub/static/css/main.16cf2ef5.css",
-    "main.js": "/FootbalClub/static/js/main.c908cce9.js",
+    "main.css": "/FootbalClub/static/css/main.dc820c7c.css",
+    "main.js": "/FootbalClub/static/js/main.caa83f76.js",
     "static/js/787.b70d9738.chunk.js": "/FootbalClub/static/js/787.b70d9738.chunk.js",
+    "static/media/help.png": "/FootbalClub/static/media/help.516398fc7d6320ee6b44.png",
     "index.html": "/FootbalClub/index.html",
-    "main.16cf2ef5.css.map": "/FootbalClub/static/css/main.16cf2ef5.css.map",
-    "main.c908cce9.js.map": "/FootbalClub/static/js/main.c908cce9.js.map",
+    "main.dc820c7c.css.map": "/FootbalClub/static/css/main.dc820c7c.css.map",
+    "main.caa83f76.js.map": "/FootbalClub/static/js/main.caa83f76.js.map",
     "787.b70d9738.chunk.js.map": "/FootbalClub/static/js/787.b70d9738.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16cf2ef5.css",
-    "static/js/main.c908cce9.js"
+    "static/css/main.dc820c7c.css",
+    "static/js/main.caa83f76.js"
   ]
 }
