@@ -26,10 +26,12 @@ const SinglePlayer: FC<SinglePlayerProps> = ({ player, updatePlayer, deletePlaye
 
     return (
         <div className="player">
-            <img src={photo} />
-            <img src={`../img/${player.img}`} alt={player.title} />
+            <img src="https://img.freepik.com/premium-vector/football-soccer-player-kicking-ball-isolated-vector-silhouette-football-defender-striker-or-goalkeeper_604083-134.jpghttps://img.freepik.com/premium-vector/football-soccer-player-kicking-ball-isolated-vector-silhouette-football-defender-striker-or-goalkeeper_604083-134.jpg" />
+            {/* <img src={`../img/${player.img}`}/> */}
+            
             <h2>{player.title}</h2>
-            <span>{player.price} </span>
+            <span>{player.price} P</span>
+            <h3>{player.img}</h3>
 
             <div className="player-controls">
                 <AiFillEdit onClick={handleToggleEdit}/>

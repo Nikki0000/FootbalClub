@@ -123,6 +123,10 @@ input[type=submit] {
   padding: 0 7px;
 }
 
+.player h3 {
+  padding-left: 90px;
+}
+
 /*Edit form*/
 .edit-form {
   width: 100%;

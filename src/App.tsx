@@ -39,13 +39,13 @@ const App: FC = () => {
             Названия поля <b>"Позиция игрока"</b> для добавления в клуб:
           </div>
           <div className="help-goalkeeper">
-            Позиция вратаря - <b>goalkeeper.png</b>
+            Позиция вратаря - <b>Goalkeeper</b>
           </div>
           <div className="help-defender">
-            Позиция защитника - <b>defender.png</b>
+            Позиция защитника - <b>Defender</b>
           </div>
           <div className="help-attack">
-            Позиция нападающего - <b>attack.png</b>
+            Позиция нападающего - <b>Attack</b>
           </div>
           <div className="help-footer">
             P.S.Названия полей <b>"Имя игрока"</b> и <b>"Стоимоть игрока"</b> заполняются произвольно
